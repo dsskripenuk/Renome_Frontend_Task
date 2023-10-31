@@ -1,0 +1,103 @@
+main {
+    margin: 0px 20px;
+}
+
+.header {
+    background-color: #EAECF8;
+    display: flex;
+    align-items: center; 
+    margin-bottom: 30px;
+}
+
+.header-border {
+    flex: 1; 
+    margin: 0 10px; 
+}
+
+.header-text {
+    text-align: center;
+    font-size: 20px;
+}
+
+.header-text-left,
+.header-text-right {
+    flex: 0; 
+    text-align: center; 
+    font-size: 16px;
+}
+
+.btn-group button {
+    color: white; 
+    padding: 10px 24px; 
+    cursor: pointer; 
+    float: left; 
+}
+
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.btn-group button:hover {
+    background-color: white;
+}
+
+.btn-style {
+    font-weight: bolder;
+    border-radius: 30px;
+    margin: 5px;
+    border-color: #5B78D7;
+    color: #5B78D7;
+} 
+
+span{
+    color: #1E3CAA;
+}
+.exchange-rate {
+    margin: 10px 0px;
+    font-size: 16px;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+}
+
+.currency-container {
+    display: flex;
+    align-items: center; 
+    margin-right: 10px; 
+}
+
+.currency-flag {
+    width: 30px; 
+    height: 18px; 
+    vertical-align: middle; 
+}
+
+.currency-text {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 360px) {
+    
+    .exchange-rate {
+        flex-direction: column; 
+        align-items: flex-start; 
+    }
+
+    .currency-container {
+        margin-right: 0; 
+        margin-bottom: 10px; 
+    }
+}
+
+.letter-box {
+    display: flex;
+    font-size: 24px;
+}
+
+.letter-box span {
+    border: 2px solid black;
+    padding: 10px; 
+    margin: 5px;
+}

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-text-left"><img src="IMG/images-removebg-preview.png" alt="US flag"
+                style="width: 100px; padding: 10px;">
+        </div>
+        <div class="header-border"></div>
+        <span class="currency-symbol">
+            <img src="IMG/Phone.png" alt="US flag"
+                style="width: 25px; height: 25px; margin-right: 5px; margin-bottom: 5px;">
+        </span>
+        <h1 class="header-text" style="color: #1E3CAA;">800 002 03 14</h1>
+        <div class="header-border"></div>
+        <div class="header-text-right" style="padding-right: 10px;">
+            <span class="currency-pair" style="font-weight: bolder;">UA|EN</span>
+        </div>
+    </header>
+
+    <main>
+        <h2 style="color: #1E3CAA; font-weight: bolder;">Виберіть операцію</h2>
+
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card text-white mb-3" style="background-color: #1E3CAA; border-radius: 20px; ">
+                    <div class="card-body">
+                        <h5 class="card-title">ЗНЯТИ КОШТИ</h5>
+                        <h6 class="card-subtitle" style="color: #5B78D7; margin-bottom: 35px;">До 50 000 UAH</h6>
+                        <div>
+                            <div class="btn-group" style="width: 100%;">
+                                <button type="button" class="btn btn-outline-light col-sm-6"
+                                    style="border-radius: 30px; margin: 10px 5px; border-color: #5B78D7; font-size:small;">100
+                                    UAH</button>
+                                <button type="button" class="btn btn-outline-light col-sm-6"
+                                    style="border-radius: 30px; margin: 10px 5px; border-color: #5B78D7; font-size:small;">200
+                                    UAH</button>
+                            </div>
+
+                            <div class="btn-group" style="width: 100%;">
+                                <button type="button" class="btn btn-outline-light col-sm-6"
+                                    style="border-radius: 30px; margin: 10px 5px; border-color: #5B78D7; font-size:small;">500
+                                    UAH</button>
+                                <button type="button" class="btn btn-outline-light col-sm-6"
+                                    style="border-radius: 30px; margin: 10px 5px; border-color: #5B78D7; font-size:small;">1000
+                                    UAH</button>
+                            </div>
+                        </div>
+
+                        <button type="button" class="btn btn-outline-light col-sm-12"
+                            style="border-radius: 30px; margin: 5px; width: 100%; border-color: #5B78D7;">Інша
+                            сума</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="card text-white mb-3" style="background-color: #F6F6F6; border-radius: 20px; ">
+                    <div class="card-body">
+                        <h5 class="card-title" style="color: #1E3CAA;">ВНЕСТИ КОШТИ</h5>
+                        <h6 class="card-subtitle" style="color: #A0A6AF; margin-bottom: 5px;">До 150 000 UAH</h6>
+                        <div class="btn-group" style="width: 100%;">
+                            <button type="button" class="btn btn-outline-light col-sm-6"
+                                style="border-radius: 30px; margin: 5px 0px; border-color: #1E3CAA; color: #1E3CAA; font-size:small; font-weight: bolder; background-color: white;">На
+                                карту</button>
+                            <button type="button" class="btn btn-outline-light col-sm-6"
+                                style="border-radius: 30px; margin: 5px; border-color: #1E3CAA; color: #1E3CAA; font-size:small; font-weight: bolder; background-color: white;">Рахунок</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card text-white mb-3" style="background-color: #F6F6F6; border-radius: 20px; ">
+                    <div class="card-body">
+                        <h5 class="card-title" style="color: #1E3CAA;">ВСІ ОПЕРАЦІЇ</h5>
+                        <h6 class="card-subtitle" style="color: #A0A6AF; margin-bottom: 5px;">Погашення кредиту, etc
+                        </h6>
+                        <button type="button" class="btn btn-outline-light col-sm-12"
+                            style="border-radius: 30px; margin: 5px; width: 100%; border-color: #1E3CAA; color: #1E3CAA; font-weight: bolder; background-color: white;">Відкрити
+                            список послуг</button>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <div class="card text-white mb-3" style="background-color: #F6F6F6; border-radius: 20px; ">
+                    <div class="card-body">
+                        <h5 class="card-title" style="color: #1E3CAA;">ОБМІН ВАЛЮТ</h5>
+                        <h6 class="card-subtitle" style="color: #A0A6AF; margin-bottom: 25px;">USD, EUR, MLD, CHF</h6>
+
+                        <div class="exchange-rate" style="color: black;">
+                            <span id="USD" class="buy-price" style="font-weight: bolder;">27,40</span>
+                            <div class="currency-container">
+                                <span class="currency-symbol">
+                                    <img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/1200px-Flag_of_the_United_States.svg.png"
+                                        alt="US flag" class="currency-flag">
+                                </span>
+                                <span class="currency-pair" style="font-weight: bolder;">USD</span>
+                                <span class="currency-pair">/UAH</span>
+
+                            </div>
+                            <span class="sell-price" style="font-weight: bolder;">26,80</span>
+                        </div>
+
+                        <div class="exchange-rate" style="color: black;">
+                            <span id="EUR" class="buy-price" style="font-weight: bolder;">33,40</span>
+                            <div class="currency-container">
+                                <span class="currency-symbol">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Flag_of_Europe.svg/2560px-Flag_of_Europe.svg.png"
+                                        alt="US flag" class="currency-flag">
+                                </span>
+                                <span class="currency-pair" style="font-weight: bolder;">EUR</span>
+                                <span class="currency-pair">/UAH</span>
+
+                            </div>
+                            <span class="sell-price" style="font-weight: bolder;">31,90</span>
+                        </div>
+
+                        <div class="exchange-rate" style="color: black;">
+                            <span id="CHF" class="buy-price" style="font-weight: bolder;">29,71</span>
+                            <div class="currency-container">
+                                <span class="currency-symbol">
+                                    <img src="https://cdn.britannica.com/43/4543-004-C0D5C6F4/Flag-Switzerland.jpg"
+                                        alt="US flag" class="currency-flag">
+                                </span>
+                                <span class="currency-pair" style="font-weight: bolder;">CHF</span>
+                                <span class="currency-pair">/UAH</span>
+                            </div>
+                            <span class="sell-price" style="font-weight: bolder;">28,30</span>
+                        </div>
+
+                        <div class="btn-group" style="width: 100%; margin-top: 25px;">
+                            <button type="button" class="btn btn-outline-light col-sm-6"
+                                style="border-radius: 30px; margin: 5px 0px; border-color: #1E3CAA; color: white; font-size:small; background-color: #1E3CAA;">Купити</button>
+                            <button type="button" class="btn btn-outline-light col-sm-6"
+                                style="border-radius: 30px; margin: 5px; border-color: #1E3CAA; color: white; font-size:small; background-color: #1E3CAA;">Продати</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card text-white" style="background-color: white; border-radius: 20px; ">
+            <div class="card-body">
+                <h5 class="card-title"
+                    style="color: #1E3CAA; text-align: center; font-size: 60px; font-family:Arial, Helvetica, sans-serif">
+                    ІНФОРМАЦІЙНИЙ БЛОК БАНКУ</h5>
+            </div>
+        </div>
+    </main>
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
